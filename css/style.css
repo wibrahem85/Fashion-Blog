@@ -1,0 +1,223 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family: oswald-reg;}
+body,html{width:100%;height:100%;}
+@font-face{
+	font-family:'oswald-reg';
+	src:url(webfonts/Oswald-Regular.ttf);
+}
+
+/* start nav */
+nav{height:auto;background:black;color:white;}
+nav a{color:white;display:inline-block;padding:10px 15px;}
+.search{float:right}
+nav a:link, nav a:visited{background:black;color:white}
+nav a:hover, nav a:active{background:#ccc;color:#000}
+/* end nav */
+
+/* start headertext */
+.headertext{text-align:center;padding:50px;height:auto}
+.headertext h1{margin-bottom:20px;font-weight:bold;letter-spacing:-1}
+.headertext span{background:black;color:white;padding:5px}
+
+/* end headertext */
+ 
+/* start header */
+header{height:auto;position:relative}
+header img{width:100%;height:100%}
+header div.ab{position:absolute;top:55%;left:2%}
+header .ab button{color:black;background:white;border:none;padding:15px 20px;opacity:.6}
+header .ab button:hover{opacity:.8;cursor:pointer}
+header .ab p{color:white;font-size:30px;letter-spacing:1.5}
+header .ab .p2{margin:20px 0 15px 0;font-weight:bold;}
+/* end header */
+
+/*start main */
+main{height:auto;background:#ccc;padding:5px;margin-top: -5px;}
+main section{width:60%;height:auto;float:left;padding-top:10px ;}
+
+/*start article */
+main section article{background:white;margin:20px 25px;padding:30px;text-align:center}
+main section article p{margin:10px;font-weight:bold}
+main section article p span{color:gray;}
+main section article img.mainimg{width:100%;margin-top:12px;}
+main section article p.large{text-align:justify;font-weight:normal;line-height:1.2}
+main section article p.large span{font-weight:bold;color:black}
+main section article button.btnL{margin:20px 10px;font-weight:bold;border:none;border:1px solid #ccc;padding:13px 20px;background:white;float:left}
+main section article button.btnR{margin:20px 8px;font-weight:bold;border:none;padding:10px 20px;background:black;color:white;float:right}
+main section article button.btnR span{margin-left:7px;font-weight:bold;background:white;color:black;padding:3px 8px}
+main section article button:hover{background:#ccc;cursor:hand}
+main section article div.over{background:white;padding-top: 20px}
+/*end article */
+
+main section hr{color:gray;opacity:.2}
+main section div.over img{width:15%;float:left;padding-right:10px;margin-right:-15px}
+main section div.over .p{ padding-top:0;margin-left:50px;float:left;text-align: justify;}
+main section div.over .p p {color:#000;font-size:16px;line-height: 1.5;}
+main section div.over .p span{color:#ccc;font-size:20px}
+
+/*start aside */
+main aside{width:40%;height:auto;float:right;padding: 10px 9px 10px 8px;}
+aside .imgp{padding:15px 15px 15px 0}
+aside img{width:100%}
+aside div.asidep{color: white; background: black;padding:50px 10px 10px 15px;margin-top: -5px;}
+aside div.asidep p{line-height: 1.5;margin-top: 15px;font-size:20px}
+aside .title{margin-top: 25px;background: black;color: white;padding: 25px;font-weight: bold;font-size: 18px;}
+main aside .parent{margin-bottom:40px;margin-right:12px}
+ 
+/* start aside item div */
+aside div.item{background:white;margin-bottom:1px;padding:10px}
+aside div.item img{float:left;width:15%;margin-right:10px}
+aside div.item div.text{font-size:18px;line-height:1.3}
+aside div.item:hover{background:gray}
+/* End aside item div */
+
+/* start aside advertise div */
+aside div.advertise{background:white;padding-bottom: 7px;}
+aside div.advertise div.adv-body{background:#f1f1f1;padding:80px; margin: 20px;text-align: center;}
+/* End aside advertise div */
+
+/* start aside tags div */
+aside div.tags{background:white;}
+aside div.global-body{background: white;padding:10px;}
+aside div.tags span{font-size:15px;background: #f1f1f1;margin-bottom: 25px;padding: 7px;display: inline-block;}
+aside div.global-body span:first-child{background:black;color:white;padding: 10px 10px 5px 10px;
+    letter-spacing: 1.2;}
+/* End aside tags div */
+
+/* start inspiration div*/
+aside .images .global-body{padding:10px}
+aside .images img{width:45%;padding: 5px;}
+/* End inspiration div*/
+
+/* start follow div*/
+aside .follow i{font-size: 22px;padding:1px;margin: 5px;}
+aside .follow i:hover{opacity:.6}
+/* start follow div*/
+
+/* start contact div*/
+aside .contact .global-body p{letter-spacing: 1.2;font-size: 17px;font-family: Arial;font-weight: normal;line-height: 1.5;padding: 0 10px 0 5px;}
+aside .contact input[type="text"]{display: block; padding: 10px;width: 100%;margin:15px 5px}
+aside .contact button{border: none;background: red;color: white;width: 100%;display: inline-block;padding: 10px;font-size: 16px;margin-left: 5px;font-family:arial} 
+aside .contact button:hover{background:gray;color:black;cursor:hand}
+/* End contact div*/
+/* End aside  */
+/*end main */
+
+/* start footer */
+footer{background:#616161;color:#fff;height:auto;padding:25px 0 35px 20px}
+footer button{color:white;background:black;border:none;padding:15px 35px;font-size:16px;}
+footer button i{padding-right:10px}
+footer button:hover{background:#ccc;color:black;cursor:pointer}
+footer p{margin:30px 0 10px 0}
+footer p a{color:#fff}
+/* end footer */
+
+/*start form*/
+form{
+	width:55%;
+	height:auto;
+	background:white;
+	padding:40px 0 0 45px;
+	border:1px solid #f1f1f1;
+	display:none;
+	position:fixed;
+	top:120px;
+	left:20%;
+	
+}
+form label{
+	font-weight:600;
+	font-size:20px;
+	letter-spacing:1.5px;
+	padding-left: 13px;
+	float:left;
+	display:inline-block;
+	padding-top: 10px;
+
+}
+form i{
+	float:right;
+	font-size:25px;
+	font-weight:900;
+	margin-right:50px;
+	margin-bottom:20px;
+	float: right;
+	padding:8px 15px;
+	display:inline-block;
+}
+form i:hover{
+	background:gray;
+	cursor:pointer;
+}
+form p{
+	margin: 20px 10px;
+	margin:0 10px 30px 20px;
+}
+form input{
+	display: block;
+    width: 90%;
+    padding: 7px;
+}
+form a {
+    text-decoration: none;
+    display: block;
+    width: 90%;
+    color: white;
+    background: red;
+    padding: 12px 0;
+    text-align: center;
+    margin: 7px 0 30px;
+}
+form a:hover{
+	background:gray;
+	color:black;
+}
+/*end form*/
+
+/*start meadia query for resposive website*/
+@media only screen and (max-width: 992px){
+	main section, main aside{
+		width:100%;
+		display:block;
+		float:left;
+	}
+	main aside{
+		padding:10px 10px 10px 22px 
+	}
+	
+}
+@media only screen and (max-width: 600px){
+	header div.ab{
+			position:absolute;
+			top:30%;
+			left:6%;
+	}
+@media only screen and (max-width: 600px){
+	header .ab p {
+    font-size: 25px;
+	}
+}
+@media only screen and (max-width: 600px){
+	main section div.over img{
+			width:90px;
+	}
+	main section div.over .p{
+		width:100%;
+		display:block;
+		float:left;
+		margin-left:-12px;
+	}
+	form{
+		width:70%;
+		height:auto;
+		background:white;
+		padding:40px 0 0 45px;
+		border:1px solid #f1f1f1;
+		display:none;
+		position:fixed;
+		top:50px;
+		left:20%;
+	}
+ 
+}
+/*end meadia query for resposive website*/
+
